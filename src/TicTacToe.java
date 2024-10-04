@@ -44,9 +44,9 @@ public class TicTacToe {
     private void promptPlayerMove() {
         boolean validMove = false;
         // TODO: ask the player to place a move
-        // Make the move on the gameBoard
         // Check whether the move is valid, if not, ask the player to place a move again
-
+        // If the player's move is valid, the move is placed on the gameBoard
+        
         if (!validMove) {
             System.out.println("Invalid move, try again.");
         }
